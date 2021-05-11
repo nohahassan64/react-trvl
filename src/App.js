@@ -12,7 +12,12 @@ function App() {
     <div className="App">
       <BrowserRouter>
         <Navbar />
-        ffffffffffffffffffffffffffffff
+        <Switch>
+          <Route path="/services"  component={Services} />
+          <Route path="/products"  component={Products} />
+          <Route path="/sign-up"  component={SignUp} />
+          <Route path="/"  component={Home} />
+        </Switch>
 
       </BrowserRouter>
     </div>
