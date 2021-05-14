@@ -1,9 +1,13 @@
 import React from 'react';
-import '../App.css';
+import { Section } from '../components/globalStyle';
+import ImgSignUp from "../images/img-8.jpg"
 
 function SignUp() {
     return (
-        <h1 className="sign-up">SIGN UP</h1>
+        <Section className="sign-up">
+            <h1>SIGN UP</h1>
+            <img src={ImgSignUp} alt="Sign Up" />
+        </Section>
     )
 }
 

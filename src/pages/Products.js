@@ -1,10 +1,13 @@
 import React from 'react';
-import '../App.css';
+import { Section } from '../components/globalStyle';
+import ImgProduct from "../images/img-1.jpg"
 
 function Products() {
     return (
-        <h1 className="products">PRODUCTS</h1>
+        <Section>
+            <h1>PRODUCTS</h1>
+            <img src={ImgProduct} alt="Product" />
+        </Section>
     )
 }
-
 export default Products;

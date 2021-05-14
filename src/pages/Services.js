@@ -1,9 +1,13 @@
 import React from 'react';
-import '../App.css';
+import { Section } from '../components/globalStyle';
+import ImgServices from "../images/img-2.jpg"
 
 function Services() {
     return (
-        <h1 className="services">SERVICES</h1>
+        <Section>
+            <h1>SERVICES</h1>
+            <img src={ImgServices} alt="Services" />
+        </Section>
     )
 }
 
