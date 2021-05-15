@@ -13,6 +13,7 @@ export const HeroContainer = styled.div`
     object-fit: contain;
 
     h1 {
+    text-align: center;
     color: #fff;
     font-size: 100px;
     margin-top: -100px;
@@ -29,6 +30,7 @@ export const HeroContainer = styled.div`
   }
   
      p {
+    text-align: center;
     margin-top: 8px;
     color: #fff;
     font-size: 32px;
