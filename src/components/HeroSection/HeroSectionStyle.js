@@ -1,6 +1,8 @@
 import styled from "styled-components"
+import ImgHome from "../../images/img-home.jpg"
 
 export const HeroContainer = styled.div`
+    background: url(${ImgHome}) center center no-repeat;
     height: 100vh;
     width: 100%;
     display: flex;
@@ -10,13 +12,6 @@ export const HeroContainer = styled.div`
     box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
     object-fit: contain;
 
-    video {
-    object-fit: cover;
-    width: 100%;
-    height: 100%;
-    position: fixed;
-    z-index: -1;
-  }
     h1 {
     color: #fff;
     font-size: 100px;
