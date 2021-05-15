@@ -73,7 +73,7 @@ export const NavMenu = styled.ul`
       position: absolute;
       top: 80px;
       left: -100%;
-      opacity: 1;
+      opacity: 0;
       transition: all 0.5s ease;
     }
     &.active {
@@ -124,7 +124,7 @@ export const NavLink = styled(Link)`
             font-size: 1.5rem;
             background-color: transparent;
             color: #fff;
-            padding: 14px 20px;
+            padding: 20px;
             border: 1px solid #fff;
             transition: all 0.3s ease-out;
             &:hover {

@@ -6,7 +6,7 @@ import { HeroContainer , HeroButtons } from "./HeroSectionStyle"
 function HeroSection() {
     return (
         <HeroContainer>
-            <h1>ADVENTURE AWAITS</h1>
+            <h2>Adventure Awaits</h2>
             <p>What are you waiting for?</p>
             <HeroButtons>
                 <Button to="/" large='true'>GET STARTED</Button>

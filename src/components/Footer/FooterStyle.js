@@ -23,11 +23,11 @@ export const FooterSubscription = styled.div`
         'Lucida Sans', Arial, sans-serif;
     }
 `;
-export const FooterSubscriptionHeading = styled.p`
+export const SubHeading = styled.p`
     margin-bottom: 24px;
     font-size: 24px;
 `;
-export const FooterSubscriptionText = styled.p`
+export const SubText = styled.p`
     margin-bottom: 24px;
     font-size: 20px;
 `;

@@ -5,8 +5,8 @@ import { FaFacebookF, FaInstagram, FaLinkedin, FaTwitter, FaTypo3, FaYoutube } f
 import {
   FooterContainer,
   FooterSubscription,
-  FooterSubscriptionHeading,
-  FooterSubscriptionText,
+  SubHeading,
+  SubText,
   InputAreas,
   FooterLinks,
   FooterLinkWrapper,
@@ -21,12 +21,12 @@ function Footer() {
   return (
     <FooterContainer>
       <FooterSubscription>
-        <FooterSubscriptionHeading>
+        <SubHeading>
           Join the Adventure newsletter to receive our best vacation deals
-        </FooterSubscriptionHeading>
-        <FooterSubscriptionText>
-          You can unsubscribe at any time.
-        </FooterSubscriptionText>
+        </SubHeading>
+        <SubText>
+          You can unsubribe at any time.
+        </SubText>
         <InputAreas>
           <form>
             <input
@@ -84,7 +84,7 @@ function Footer() {
           <small>TRVL © 2020</small>
           <SocialIcons>
             <Link
-              className='social-icon-link facebook'
+              className='social-icon-link'
               to='/'
               target='_blank'
               aria-label='Facebook'
@@ -92,7 +92,7 @@ function Footer() {
               <FaFacebookF />
             </Link>
             <Link
-              className='social-icon-link instagram'
+              className='social-icon-link'
               to='/'
               target='_blank'
               aria-label='Instagram'
@@ -100,7 +100,7 @@ function Footer() {
               <FaInstagram />
             </Link>
             <Link
-              className='social-icon-link youtube'
+              className='social-icon-link'
               to='/'
               target='_blank'
               aria-label='Youtube'
@@ -108,7 +108,7 @@ function Footer() {
               <FaYoutube />
             </Link>
             <Link
-              className='social-icon-link twitter'
+              className='social-icon-link'
               to='/'
               target='_blank'
               aria-label='Twitter'
@@ -116,7 +116,7 @@ function Footer() {
               <FaTwitter />
             </Link>
             <Link
-              className='social-icon-link twitter'
+              className='social-icon-link'
               to='/'
               target='_blank'
               aria-label='LinkedIn'

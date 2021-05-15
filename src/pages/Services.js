@@ -5,7 +5,7 @@ import ImgServices from "../images/img-2.jpg"
 function Services() {
     return (
         <Section>
-            <h1>SERVICES</h1>
+            <h2>SERVICES</h2>
             <img src={ImgServices} alt="Services" />
         </Section>
     )

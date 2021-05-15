@@ -11,20 +11,23 @@ export const GlobalStyle = createGlobalStyle`
 `;
 export const Section = styled.h1`
   position: relative;
-h1 {
+h2 {
   position: absolute;
   left: 50%;
   top: 50%;
   color: #fff;
   font-size: 5rem;
   transform: translate(-50% , -50%);
+  @media screen and (max-width: 768px) {
+    font-size: 3rem;
+  }
 }
 img {
   object-fit: cover;
   width: 100%;
+  height: 100vh;
   max-height: 100%;
   display: flex;
-  height: 100vh;
   align-items: center;
   justify-content: center;
 }

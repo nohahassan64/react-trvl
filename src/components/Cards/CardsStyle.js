@@ -4,7 +4,7 @@ import styled from "styled-components"
 export const CardsSection = styled.div`
     padding: 4rem;
     background: #fff;
-    h1 {
+    h2 {
     text-align: center;
   }
 `;
@@ -15,7 +15,7 @@ export const CardsContainer = styled.div`
     max-width: 1120px;
     width: 90%;
     margin: 0 auto;
-    @media only screen and (min-width: 1200px) {
+    @media screen and (min-width: 1200px) {
       width: 84%;
   }
 `;
@@ -25,7 +25,7 @@ export const CardsWrapper = styled.div`
 `;
 export const CardsItems = styled.ul`
     margin-bottom: 24px;
-    @media only screen and (min-width: 1024px) {
+    @media screen and (min-width: 1024px) {
       display: flex;
   }
 
@@ -35,7 +35,7 @@ export const CardItem = styled.li`
     flex: 1;
     margin: 0 1rem;
     border-radius: 10px;
-    @media only screen and (max-width: 1024px) {
+    @media screen and (max-width: 1024px) {
       margin-bottom: 2rem;
   }
     figure {
@@ -89,8 +89,6 @@ export const CardLink = styled(Link)`
     flex-flow: column;
     width: 100%;
     box-shadow: 0 6px 20px rgba(56, 125, 255, 0.17);
-    -webkit-filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
-    filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
     border-radius: 10px;
     overflow: hidden;
     text-decoration: none;

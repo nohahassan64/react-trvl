@@ -9,7 +9,7 @@ import SignUp from './pages/SignUp'
 
 function App() {
   return (
-    <div className="App">
+    <div>
       <BrowserRouter>
       <GlobalStyle />
         <Navbar />
@@ -19,7 +19,6 @@ function App() {
           <Route path="/sign-up"  component={SignUp} />
           <Route path="/"  component={Home} />
         </Switch>
-
       </BrowserRouter>
     </div>
   );

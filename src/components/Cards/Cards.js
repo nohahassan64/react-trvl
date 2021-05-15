@@ -5,7 +5,7 @@ import {CardsSection,CardsContainer,CardsWrapper,CardsItems,CardItem,CardLink} f
 function Cards() {
     return (
         <CardsSection>
-            <h1>Check Out These Epic Destinations!</h1>
+            <h2>Check Out These Epic Destinations!</h2>
             <CardsContainer>
                 <CardsWrapper>
                     <CardsItems>
@@ -15,7 +15,7 @@ function Cards() {
                             <CardItem key={id}>
                               <CardLink to={path}>
                                 <figure data-category={label}>
-                                  <img src={img} alt="Travel Images" />
+                                  <img src={img} alt="Travel" />
                                 </figure>
                                 <div className="info">
                                   <h5>{text}</h5>
@@ -33,7 +33,7 @@ function Cards() {
                             <CardItem key={id}>
                               <CardLink to={path}>
                                 <figure data-category={label}>
-                                  <img src={img} alt="Travel Images" />
+                                  <img src={img} alt="Travel" />
                                 </figure>
                                 <div className="info">
                                   <h5>{text}</h5>
